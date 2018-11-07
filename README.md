@@ -1,7 +1,7 @@
 # The Observatory
 A random city landscape generator, uses PixiJS (requires WebGL enabled in browser). Tested on a recent Chrome version.
 
-![ScreenShot](screenshot (1).png)
+![](docs/screenshot (1).png?raw=true)
 
 ## Running
 Use `run.sh` or `run.bat` to run (dev mode), open in http://localhost:1234
