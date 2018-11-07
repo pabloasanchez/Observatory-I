@@ -4,15 +4,24 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "img": "^3.0.3",
     "pixi-filters": "^2.6.1",
     "pixi.js": "^4.8.2",
     "reset-css": "^4.0.1",
-    "reset.css": "^2.0.2"
+    "reset.css": "^2.0.2",
+    "resources": "^0.4.3",
+    "sky": "^0.5.0",
+    "src": "^1.1.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
   }
 }

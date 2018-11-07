@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-    /* image-rendering: pixelated:; */
+    image-rendering: pixelated;
     position: absolute;
     background: transparent;
     width: 100%;
